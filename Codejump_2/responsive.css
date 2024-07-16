@@ -1,0 +1,33 @@
+@media screen and (max-width:1024px){
+    body{
+        width: 100%;
+    }
+
+    #head{
+        padding: 0 20px;
+    }
+    .contents{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .photos{
+        flex-direction: column;
+    }
+
+    .photos li{
+        width: 100%;
+        text-align: center;
+    }
+
+    .detail_contents{
+        flex-direction: column;
+    }
+
+    .text{
+        border-left: none;
+        width: 100%;
+        border-top: black solid 1px;
+        padding: 20px;
+    }
+}
