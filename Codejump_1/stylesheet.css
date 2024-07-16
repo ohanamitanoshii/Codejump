@@ -1,0 +1,106 @@
+body{
+    font-family: 'Meiryo';
+    background-color: #F4F9FF;
+    font-size: 0.875rem;
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.inner{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#header{
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+
+#header .site_title img{
+    line-height: 1px;
+    width: 160px;
+}
+
+#header .site_title a{
+    display: block;
+}
+
+.mainvisual {
+    width: 100%;
+}
+
+#index{
+    background-color: white;
+    margin-top: 60px;
+    padding: 35px;
+}
+
+#index .index_list li{
+    margin-bottom: 25px;
+}
+
+#index .index_list li:last-child{
+    margin-bottom: 0;
+}
+
+#detail{
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+#detail .content{
+    display: flex;
+    align-items: flex-start;
+}
+
+#detail .content img{
+    width: 270px;
+    margin-right: 60px;
+}
+
+#detail .content .title{
+    font-weight: bold;
+    margin-top: 0;
+}
+
+#detail .text dl{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    padding: 15px 0;
+    border-top: #DEDEDE solid 1px;
+    border-bottom: #DEDEDE solid 1px;
+}
+
+#detail .text dt{
+    width: 25%;
+    box-sizing: border-box;
+}
+
+#detail .text dd{
+    width: 75%;
+    box-sizing: border-box;
+    margin-left: 0;
+}
+
+#detail .text p{
+    margin-bottom: 20px;
+}
+
+#detail .text a{
+    color: black;
+}
+
+footer{
+    font-size: smaller;
+}
