@@ -1,0 +1,45 @@
+@media screen and (max-width:896px) {
+    body{
+        width: 100%;
+    }
+
+    .magazine_contents{
+        flex-direction: column;
+    }
+
+    .contents{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    #antique, #catalog{
+        flex-direction: column;
+    }
+    
+    .contents_photo{
+        width: 100%;
+    }
+    
+    .contents_text{
+        width: 100%;
+        text-align: center;
+    }
+
+    #site_contents{
+        flex-direction: column;
+        padding: 0 5% 60px 5%;
+    }
+
+    .item{
+        width: 100%;
+    }
+
+    .item .section_title{
+        padding-left: 0;
+    }
+
+    .item:first-child{
+        text-align: center;
+        padding: 40px 0 0 0;
+    }
+}
