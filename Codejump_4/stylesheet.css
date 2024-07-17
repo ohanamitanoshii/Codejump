@@ -37,8 +37,8 @@ header img{
 }
 
 .section_title{
-    margin-top: 60px;
-    margin-bottom: 20px;
+    padding-top: 60px;
+    padding-bottom: 20px;
 }
 
 #magazine{
@@ -60,7 +60,7 @@ header img{
 .contents .text_box{
     position: absolute;
     top: 40%;
-    left: 25%;
+    left: 20%;
     background-color: #70707080;
     color: white;
     padding: 20px 30px;
@@ -107,20 +107,28 @@ header img{
     text-align: left;
 }
 
-#site_contents{
+footer{
     background-color: #333333;
+}
+
+#site_contents{
     justify-content: space-between;
     color: white;
     display: flex;
-    padding: 100px 0;
+    padding: 80px 5%;
 }
 
-#site_title{
+.item{
     width: 33%;
+    line-height: 2;
 }
-#contents_list{
-    width: 33%
+
+.item:first-child{
+    padding: 80px 0;
 }
-#contents_info{
-    width: 33%;
+
+#copy_right{
+    background-color: white;
+    text-align: center;
+    padding: 30px 0;
 }
